@@ -18,7 +18,7 @@ jobs:
       - run:
           command: npm install
           working_directory: ./client
-      -run:
+      - run:
           command: npm test
           working_directory: ./client
 workflows:
